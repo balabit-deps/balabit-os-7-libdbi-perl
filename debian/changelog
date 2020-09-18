@@ -1,3 +1,12 @@
+libdbi-perl (1.640-1ubuntu0.2) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: NULL pointer dereference
+    - debian/patches/CVE-2019-20919.patch: adds a check for NULL
+      for PL_dirty and profile in DBI.xs.
+    - CVE-2019-20919
+
+ -- Leonidas S. Barbosa <leo.barbosa@canonical.com>  Fri, 18 Sep 2020 12:57:13 -0300
+
 libdbi-perl (1.640-1ubuntu0.1) bionic-security; urgency=medium
 
   * SECURITY UPDATE: Memory corruption

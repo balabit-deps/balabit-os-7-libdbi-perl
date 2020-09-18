@@ -3,3 +3,4 @@ t__40profile.t__NTP.patch
 t__80proxy.t___syslogd.patch
 spelling.patch
 CVE-2020-14392.patch
+CVE-2019-20919.patch
